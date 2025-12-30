@@ -107,8 +107,6 @@ The report displays the top 10 products and top 10 customers, delivering valuabl
 It includes shipment information by category and subcategory, enabling detailed product analysis.
 The report intensifies the data analysis by showing the city and day of the week for the top 10 products.
 
-# Model Deployment
-To deploy this model, I published the dashboard [here](https://bit.ly/norwood_sales_product_dashboard) for users to test and give feedback to the team. 
 
 # Future Work
 Some ideas for future work include: 
