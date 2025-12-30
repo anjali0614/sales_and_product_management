@@ -117,8 +117,9 @@ Some ideas for future work include:
 1. Customer Segmentation: Develop a customer segmentation analysis to group customers based on their purchase behavior, demographics, and other attributes.
 
 
-Please review my full analysis in [my notebook](https://github.com/dataeducator/healthy_heart/blob/main/notebook.ipynb ) or ([my presentation](https://github.com/dataeducator/healthy_heart/blob/main/presentation.pdf )).
-Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have more questions.
+Please review the full analysis in the notebooks and dashboards included in this repository.
+If you have any questions or would like to discuss the analysis further, feel free to reach out
+via my GitHub profile.
 
 # Repository Structure
 
