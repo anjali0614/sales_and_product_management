@@ -4,7 +4,7 @@ Traditional sales reporting often relies on static reports that lack flexibility
 The primary challenges addressed in this project include:
 
 * __Lack of Detailed Product and Client Insights__:   Static reporting does not allow tracking sales at an individual product level or clearly associating customers with each transaction, limiting the ability to analyze customer behavior and product performance.
-* __Inability to Assess Performance Trends__:  Sales performance trends over time are difficult to evaluate without a consolidated analytical view, reducing the effectiveness of trend-baseddecision-making.
+* __Inability to Assess Performance Trends__:  Sales performance trends over time are difficult to evaluate without a consolidated analytical view, reducing the effectiveness of trend-based decision-making.
 * __Budgetary Comparison__: Budget data for the fiscal year 2022 is not directly integrated with sales reporting, making it challenging to compare actual performance against budgeted targets.
 * __Need for Filter Functionality__:   Analytical flexibility is limited without the ability to filter sales data by product, customer, location, and time period, restricting deeper segment-level analysis.
 
@@ -23,7 +23,7 @@ The following user stories were defined to guide dashboard design and KPI select
 
 | No. | As a          | I want                                | So that                                 | Acceptance Criteria                                  |
 | --- | ------------- | ------------------------------------ | --------------------------------------- | ----------------------------------------------------- |  
-| 1   | Sales Manager | to access a PowerBI dashboard        | effectively track which customers and products perform best each month/quarter/year | A PowerBI dashboard updated once daily.   |
+| 1   | Sales Manager | to access a PowerBI dashboard        | effectively track which customers and products perform best each month/quarter/year | A PowerBI dashboard designed to support daily updates.   |
 | 2   | Sales Rep     | A detailed PowerBI dashboard         | proactively engages with our most frequent customers and identifies potential future sales opportunities | A PowerBI dashboard that provides the functionality to filter data by each customer. |
 | 3   | Sales Rep     | a detailed overview of sales per product | efficiently monitor and manage the products that are selling the best | A PowerBI dashboard that provides the functionality to filter data by each product. |
 | 4   | Sales Manager | comprehensive PowerBI dashboard to oversee our sales performance over time, enabling a comparison against our budget | can effectively evaluate our sales performance | A PowerBI dashboard that includes graphs and Key Performance Indicators (KPIs) to facilitate a comparison with the budget. |
@@ -68,7 +68,7 @@ SELECT c.customerkey AS CustomerKey
 	CASE c.gender
 		WHEN 'M' THEN 'Male'
 		WHEN 'F' THEN 'Female'
-		END AS Gender
+		END AS Gender,
 	c.datefirstpurchase AS DateFirstPurchase
 	,g.city AS [Customer City]
 FROM AdventureWorksDW2022.dbo.DimCustomer AS c
@@ -137,7 +137,7 @@ These insights demonstrate how interactive dashboards can support sales strategy
 
 
 The created Power BI report comprises three pages catering to different user needs and roles.
-It is updated daily, ensuring that the data is current.
+The dashboard is designed to support regular data refreshes.
 The report can be filtered by customer, product, city, month, and year, providing a high level of customization.
 The report displays the top 10 products and top 10 customers, delivering valuable insights.
 It includes shipment information by category and subcategory, enabling detailed product analysis.
