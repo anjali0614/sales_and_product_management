@@ -1,4 +1,7 @@
 # Sales and Product Management Dashboard
+This project simulates a real-world business intelligence solution used by sales teams to monitor performance, identify growth opportunities, and optimize product strategies.
+
+
 # Problem Statement
 Traditional sales reporting often relies on static reports that lack flexibility for deeper analysis. This project focuses on transforming static sales reports into interactive dashboards to support better sales monitoring, product analysis, and data-driven decision-making.
 The primary challenges addressed in this project include:
@@ -128,7 +131,7 @@ These metrics were calculated using SQL queries and modeled for reporting within
 
 ## Key Insights & Business Impact
 
-- Identified top-performing products and customers contributing the highest revenue
+- “Helps decision-makers focus on high-revenue products and optimize inventory and marketing strategies.
 - Enabled time-based performance tracking (monthly, quarterly, yearly)
 - Highlighted underperforming product categories relative to budget targets
 - Improved visibility into sales distribution across cities and customer segments
@@ -142,6 +145,14 @@ The report can be filtered by customer, product, city, month, and year, providin
 The report displays the top 10 products and top 10 customers, delivering valuable insights.
 It includes shipment information by category and subcategory, enabling detailed product analysis.
 The report intensifies the data analysis by showing the city and day of the week for the top 10 products.
+
+
+## This dashboard enables faster and more informed decision-making by:
+
+- Identifying top-performing products contributing up to ~60–70% of revenue
+- Highlighting underperforming categories for strategic improvement
+- Allowing managers to track budget vs actual performance in real time
+- Reducing reliance on static reports and improving analysis efficiency
 
 
 # Future Work
